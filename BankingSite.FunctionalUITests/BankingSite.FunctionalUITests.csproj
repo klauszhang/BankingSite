@@ -91,7 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BrowserHost.cs" />
-    <Compile Include="DemoHelper.cs" />
     <Compile Include="LoanApplicationTests.cs" />
     <Compile Include="PageObjectModels\AcceptedPage.cs" />
     <Compile Include="PageObjectModels\DeclinedPage.cs" />
