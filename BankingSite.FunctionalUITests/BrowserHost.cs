@@ -12,7 +12,8 @@ namespace BankingSite.FunctionalUITests
     {
       Instance.Run("BankingSite", 2233, 
         config=>config.WithRouteConfig(RouteConfig.RegisterRoutes)
-        .WithRemoteWebDriver(()=>new FirefoxDriver(new FirefoxProfile())));
+        //.WithRemoteWebDriver(() => new FirefoxDriver(new FirefoxProfile()))
+        );
       RootUrl = Instance.Application.Browser.Url;
     }
   }
